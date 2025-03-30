@@ -207,14 +207,14 @@ const Footer = () => {
                             <a href="tel:+33602158298">+33 60 2158 298 </a>
                           </h5>
                         </li>
-                        <li className="single-contact">
+                        {/* <li className="single-contact">
                           <span>Email Now</span>
                           <h5>
                             <a href="mailto:contact@comeandclickagency.com">
                               contact@comeandclickagency.com
                             </a>
                           </h5>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
