@@ -146,21 +146,8 @@ const Footer = () => {
                       <div className="menu-container">
                         <ul>
                           <li>
-                            <Link href="service-details">
+                            <Link href="/terms-conditions">
                               Terms & Conditions
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="/service-details">
-                              Privacy Policy
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={10}

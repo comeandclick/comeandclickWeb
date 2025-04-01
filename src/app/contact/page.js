@@ -89,7 +89,17 @@ const ContactPage = () => {
                             </svg>
                           </div>
                           <div className="info">
-                            <a href="mailto:contact@comeandclickagency.com">
+                            <a 
+                              href="mailto:contact@comeandclickagency.com" 
+                              style={{
+                                display: 'block', 
+                                maxWidth: '200px', 
+                                overflow: 'hidden', 
+                                textOverflow: 'ellipsis', 
+                                whiteSpace: 'nowrap'
+                              }}
+                              title="contact@comeandclickagency.com"
+                            >
                               contact@comeandclickagency.com
                             </a>
                           </div>

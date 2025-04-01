@@ -1,8 +1,8 @@
-import Footer3 from "@/components/Footer/Footer3";
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/header/Header";
 import React from "react";
 export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
+  title: "Come&Click - Digital Marketing Agency",
   icons: {
     icon: "/assets/img/sm-logo.svg",
   },
@@ -17,7 +17,7 @@ const page = () => {
           <div className="row mb-130">
             <div className="col-lg-12">
               <div className="section-title six">
-                <h2>Terms &amp; Condition</h2>
+                <h2>Terms &amp; Conditions</h2>
               </div>
             </div>
           </div>
@@ -27,57 +27,45 @@ const page = () => {
                 <h6>
                   <i className="bi bi-caret-right-fill" /> Last Updated
                 </h6>
-                <p>02 February, 2023</p>
+                <p>15 January, 2025</p>
               </div>
             </div>
             <div className="col-lg-12 mb-40">
               <div className="terms-and-conditions">
                 <h4>1. Terms &amp; Conditions</h4>
                 <p>
-                  Creating clear and comprehensive terms and conditions for your
-                  business consulting services is essential to protect both you
-                  and your clients. Below are key components to consider
-                  including in your business consulting terms and
-                  conditions:It's important to have your terms and conditions
-                  reviewed by legal counsel to ensure they comply with
-                  applicable laws and regulations and to protect your interests.
-                  Customize the terms to fit the specific requirements of your
-                  consulting business and industry. Once finalized, provide a
-                  copy to clients before beginning any consulting work.
+                  Welcome to Come&Click. These terms and conditions outline the rules and regulations
+                  for the use of our development and design services. By engaging our services,
+                  you agree to accept these terms and conditions in full. Our services include
+                  web development, logo design, mobile app development, and e-commerce solutions.
                 </p>
                 <ul>
                   <li>
-                    <strong>i ) Fees and Payment: </strong> Clearly state your
-                    pricing structure, payment terms, and any additional
-                    charges. Specify when and how invoices will be issued, as
-                    well as your accepted payment methods.
+                    <strong>i ) Service Agreement: </strong> All development projects begin with detailed
+                    requirements gathering and project scoping. Changes to project scope may affect delivery
+                    timeline and costs. We require written approval before implementing any significant
+                    changes to ongoing projects.
                   </li>
                   <li>
-                    <strong>ii ) Termination and Cancellation:</strong> Outline
-                    the process for terminating the consulting agreement and any
-                    associated fees or penalties. Include a notice period
-                    required for termination.
+                    <strong>ii ) Payment Terms:</strong> We operate on a milestone-based payment structure
+                    for development projects. Design work requires a 50% upfront payment. All invoices must
+                    be settled within 15 days of issue. Work may be suspended for overdue payments.
                   </li>
                   <li>
-                    <strong>iii ) Liability and Indemnification:</strong>{" "}
-                    Describe your liability limits and the circumstances under
-                    which you will be held accountable for damages or losses.
-                    Include clauses regarding indemnification, which can protect
-                    you from client claims.
+                    <strong>iii ) Content Rights:</strong> All code and designs created by Come&Click remain
+                    our intellectual property until full payment is received. We retain the right to use
+                    completed projects as portfolio examples unless explicitly agreed otherwise.
                   </li>
                   <li>
-                    <strong>iv ) Governing Law and Jurisdiction:</strong> Define
-                    the governing law that will apply to the contract and the
-                    jurisdiction where any disputes will be resolved. This can
-                    simplify legal matters if disagreements arise.
+                    <strong>iv ) Project Delivery:</strong> We provide regular project updates and progress
+                    reports. Clients receive access to development environments and scheduled review meetings
+                    throughout the project lifecycle.
                   </li>
                 </ul>
                 <p>
-                  It's important to have your terms and conditions reviewed by
-                  legal counsel to ensure they comply with applicable laws and
-                  regulations and to protect your interests. Customize the terms
-                  to fit the specific requirements of your consulting business
-                  and industry.
+                  These terms ensure a professional relationship between Come&Click and our clients. We
+                  recommend reviewing them thoroughly before engaging our services. Our team is available
+                  to clarify any points.
                 </p>
               </div>
             </div>
@@ -85,259 +73,33 @@ const page = () => {
               <div className="terms-and-conditions">
                 <h4>2. Privacy Policy</h4>
                 <p>
-                  Ensure that your privacy policy is written in clear and plain
-                  language to facilitate understanding. Make it easily
-                  accessible on your website, and require clients to acknowledge
-                  their acceptance of the policy as part of the onboarding
-                  process. Additionally, comply with relevant data protection
-                  laws in your jurisdiction to safeguard client data. It's
-                  advisable to consult with legal counsel to ensure your privacy
-                  policy aligns with applicable regulations and
-                  requirements.Creating a comprehensive privacy policy for your
-                  business consulting services is essential to inform clients
-                  and website visitors about how their personal information is
-                  collected, used, and protected.
+                  At Come&Click, protecting your data is paramount. We handle sensitive project data,
+                  source code, and client information with the utmost care. Our data handling practices
+                  comply with current privacy regulations, and we implement robust security measures
+                  to protect all client information.
                 </p>
                 <p>
-                  It's important to have your terms and conditions reviewed by
-                  legal counsel to ensure they comply with applicable laws and
-                  regulations and to protect your interests. Customize the terms
-                  to fit the specific requirements of your consulting business
-                  and industry. Once finalized, provide a copy to clients before
-                  beginning any consulting work.
+                  Our privacy policy covers data collection, usage, and storage practices. We collect
+                  data necessary for project development and testing. This includes application logs,
+                  user testing data, and project management information. All data is stored securely and
+                  accessed only by authorized team members.
                 </p>
                 <p>
-                  While a career in business consulting comes with many
-                  benefits, it also involves challenges, such as dealing with
-                  client expectations, tight deadlines, and continuous
-                  adaptation to new industries and technologies. Overall, the
-                  consulting field can be highly rewarding for those who enjoy a
-                  fast-paced, dynamic.
+                  We maintain strict confidentiality regarding our clients' business information and
+                  development strategies. Non-disclosure agreements are available upon request. Our team
+                  undergoes regular training on data protection and privacy best practices.
+                </p>
+                <p>
+                  Come&Click is committed to transparency in our data practices. We regularly update
+                  our privacy policies to reflect changes in regulations and industry standards. Clients
+                  receive prompt notification of any changes to our data handling procedures.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="text-slider-section two">
-        <div className="marquee">
-          <div className="marquee__group">
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>{" "}
-              DIGITAL PRODUCT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              UI/UX DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              DIGITAL STUDIO
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              BRANDING DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              UI/UX DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              EMAIL MARKETING
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              BRANDING DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              UI/UX DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              EMAIL MARKETING
-            </span>
-          </div>
-          <div className="marquee__group">
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>{" "}
-              DIGITAL PRODUCT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              UI/UX DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              DIGITAL STUDIO
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              BRANDING DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              UI/UX DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              EMAIL MARKETING
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              BRANDING DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              UI/UX DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              EMAIL MARKETING
-            </span>
-          </div>
-        </div>
-      </div>
-      <Footer3 />
+      <Footer />
     </>
   );
 };
