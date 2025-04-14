@@ -1,18 +1,36 @@
-"use client"
+"use client";
 import React from "react";
 import { usePathname } from "next/navigation";
-const Breadcrumb = ({bgImg="1",title="02", title2, }) => {
+const Breadcrumb = ({ bgImg = "1", title = "02", title2 }) => {
   const pathname = usePathname();
-  const formattedPathname = pathname.startsWith("/") ? pathname.substring(1) : pathname;
+  const formattedPathname = pathname.startsWith("/")
+    ? pathname.substring(1)
+    : pathname;
   return (
     <>
       <div
         className="breadcrumb-section"
         style={{
-          backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/img/innerpage/serviceheader.jpg)`
-         
+          position: "relative",
+          overflow: "hidden",
+          height: "62vh",
         }}
       >
+        <video
+          autoPlay
+          muted
+          loop
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "center",
+            zIndex: -1,
+          }}
+        >
+          <source src="/assets/video/banner3.mp4" type="video/mp4" />
+        </video>
         <svg
           className="vector"
           xmlns="http://www.w3.org/2000/svg"
@@ -32,8 +50,8 @@ const Breadcrumb = ({bgImg="1",title="02", title2, }) => {
               <div className="row">
                 <div className="col-lg-5">
                   <div className="section-title white">
-                    <h1>
-                     {title} <span>{title2}</span>
+                    <h1 style={{ fontSize: "32px", textAlign:'justify'}}>
+                      {title} <span>{title2}</span>
                     </h1>
                   </div>
                 </div>
@@ -47,8 +65,8 @@ const Breadcrumb = ({bgImg="1",title="02", title2, }) => {
                     </svg>
                     <div className="btn-and-paragraph">
                       <p>
-                        Offer a wide range of services to help businesses
-                        establish.
+                        Proposez une large gamme de services pour aider les
+                        entreprises à s'établir.
                       </p>
                     </div>
                   </div>
@@ -57,7 +75,8 @@ const Breadcrumb = ({bgImg="1",title="02", title2, }) => {
             </div>
             <ul className="breadcrumb-list">
               <li>
-                <a href="/">Home</a>
+                <a href="/">Accueil
+                </a>
               </li>
             </ul>
           </div>

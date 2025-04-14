@@ -61,8 +61,10 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
         <div className="row g-4 mb-60">
           <div className="col-lg-4">
             <div className="sub-title text-animation">
-              <h6>
-                Our Services
+              <h6
+                style={{ fontFamily: "Playfair Display", fontStyle: "italic" }}
+              >
+                Nos services
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={50}
@@ -77,14 +79,15 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
           <div className="col-lg-8">
             <div className="section-title text-animation">
               <h2>
-                SOLUTIONS THAT <br />
-                <span>DELIVER RESULTS.</span>
+                DES SOLUTIONS QUI <br />
+                <span>DONNENT DES RÉSULTATS.</span>
               </h2>
+
               <div className="dash-and-paragraph">
                 <div className="dash" />
                 <p>
-                  Offer a wide range of services to help businesses establish
-                  and enhance their online presence.
+                  Offrir une large gamme de services pour aider les entreprises
+                  à établir et à améliorer leur présence en ligne.
                 </p>
               </div>
             </div>
@@ -150,7 +153,7 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
                     aria-expanded="false"
                     aria-controls="flush-collapseOne"
                   >
-                    1. Graphics Design
+                    1. Conception graphique
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -176,22 +179,23 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
                   <div className="accordion-body">
                     <ul>
                       <li>
-                        <a href="#">Banners</a>
+                        <a href="#">Bannières</a>
                       </li>
                       <li>
                         <a href="#">Logos</a>
                       </li>
                       <li>
-                        <a href="#">Infographics</a>
+                        <a href="#">Infographies</a>
                       </li>
                       <li>
-                        <a href="#">Visiting Card</a>
+                        <a href="#">Cartes de visite</a>
                       </li>
                     </ul>
                     <p>
-                      Creating visually appealing graphics, including logos,
-                      banners, infographics, and other branding materials.
+                      Création de visuels attrayants, y compris des logos,
+                      bannières, infographies et autres supports de branding.
                     </p>
+
                     <Link className="explore-btn" href="/service3">
                       Explore More
                       <svg
@@ -216,7 +220,7 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
                     aria-expanded="false"
                     aria-controls="flush-collapseTwo"
                   >
-                    2. Web Design & Development
+                    2. Conception et Développement Web
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -242,34 +246,36 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
                   <div className="accordion-body">
                     <ul>
                       <li>
-                        <a href="#">Custom Website Design</a>
+                        <a href="#">Conception de site web personnalisé</a>
                       </li>
                       <li>
-                        <a href="#">E-commerce Development</a>
+                        <a href="#">Développement d'e-commerce</a>
                       </li>
                       <li>
-                        <a href="#">Responsive Web Design</a>
+                        <a href="#">Conception de site web responsive</a>
                       </li>
                       <li>
-                        <a href="#">CMS Development</a>
+                        <a href="#">Développement de CMS</a>
                       </li>
                       <li>
-                        <a href="#">Web Application Development</a>
+                        <a href="#">Développement d'applications web</a>
                       </li>
                       <li>
-                        <a href="#">Website Maintenance</a>
+                        <a href="#">Maintenance de site web</a>
                       </li>
                     </ul>
                     <p>
-                      We create stunning, user-friendly websites optimized for
-                      all devices using both code and no-code platforms. Our
-                      development process focuses on clean code, fast loading
-                      times, and seamless functionality to deliver exceptional
-                      digital experiences, whether through traditional coding or
-                      modern no-code solutions.
+                      Nous créons des sites web élégants et conviviaux optimisés
+                      pour tous les appareils, en utilisant à la fois du code et
+                      des plateformes sans code. Notre processus de
+                      développement se concentre sur le code propre, les temps
+                      de chargement rapides et la fonctionnalité sans faille
+                      pour offrir des expériences numériques exceptionnelles,
+                      que ce soit via le codage traditionnel ou les solutions
+                      sans code modernes.
                     </p>
                     <Link className="explore-btn" href="/service3">
-                      Explore More
+                      En savoir plus
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={12}
@@ -292,7 +298,7 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
                     aria-expanded="false"
                     aria-controls="flush-collapseThree"
                   >
-                    3. Mobile App Development
+                    3. Développement d'applications mobiles
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -318,31 +324,26 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
                   <div className="accordion-body">
                     <ul>
                       <li>
-                        <a href="#">iOS App Development</a>
+                        <a href="#">Développement d'applications iOS</a>
                       </li>
                       <li>
-                        <a href="#">Android App Development</a>
+                        <a href="#">Développement d'applications Android</a>
                       </li>
                       <li>
-                        <a href="#">Hybrid App Development</a>
+                        <a href="#">Développement d'applications hybrides</a>
                       </li>
                       <li>
-                        <a href="#">App Maintenance</a>
-                      </li>
-                      <li>
-                        <a href="#">App Testing</a>
-                      </li>
-                      <li>
-                        <a href="#">App Deployment</a>
+                        <a href="#">Maintenance d'applications</a>
                       </li>
                     </ul>
                     <p>
-                      We develop mobile apps for iOS and Android platforms,
-                      ensuring seamless integration with existing systems and
-                      providing a user-friendly experience across all devices.
+                      Nous développons des applications mobiles pour les
+                      plateformes iOS et Android, assurant une intégration
+                      fluide avec les systèmes existants et offrant une
+                      expérience utilisateur sans faille sur tous les appareils.
                     </p>
                     <Link className="explore-btn" href="/service3">
-                      Explore More
+                      En savoir plus
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={12}
@@ -365,7 +366,7 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
                     aria-expanded="false"
                     aria-controls="flush-collapseFour"
                   >
-                    4. UX/UI Design
+                    4. Conception UX/UI
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -391,31 +392,32 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
                   <div className="accordion-body">
                     <ul>
                       <li>
-                        <a href="#">User Research</a>
+                        <a href="#">Recherche utilisateur</a>
                       </li>
                       <li>
                         <a href="#">Wireframing</a>
                       </li>
                       <li>
-                        <a href="#">Prototyping</a>
+                        <a href="#">Prototypage</a>
                       </li>
                       <li>
-                        <a href="#">Usability Testing</a>
+                        <a href="#">Test de facilité d'utilisation</a>
                       </li>
                       <li>
-                        <a href="#">Design Review</a>
+                        <a href="#">Revue de conception</a>
                       </li>
                       <li>
-                        <a href="#">Design System</a>
+                        <a href="#">Système de design</a>
                       </li>
                     </ul>
                     <p>
-                      We create intuitive, user-friendly designs that enhance
-                      user experience and engagement, ensuring a seamless and
-                      enjoyable interaction across all platforms.
+                      Nous créons des conceptions intuitives et conviviales qui
+                      renforcent l'expérience utilisateur et l'engagement,
+                      assurant une interaction fluide et agréable sur toutes
+                      les plateformes.
                     </p>
                     <Link className="explore-btn" href="/service3">
-                      Explore More
+                      En savoir plus
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={12}
@@ -438,7 +440,7 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
                     aria-expanded="false"
                     aria-controls="flush-collapseFive"
                   >
-                    5. SEO Optimization
+                    5. Optimisation SEO
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -464,31 +466,28 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
                   <div className="accordion-body">
                     <ul>
                       <li>
-                        <a href="#">Keyword Research</a>
+                        <a href="#">Recherche de mots-clés</a>
                       </li>
                       <li>
-                        <a href="#">On-Page Optimization</a>
+                        <a href="#">Optimisation sur page</a>
                       </li>
                       <li>
-                        <a href="#">Off-Page Optimization</a>
+                        <a href="#">Optimisation hors page</a>
                       </li>
                       <li>
-                        <a href="#">Technical SEO</a>
+                        <a href="#">SEO technique</a>
                       </li>
                       <li>
-                        <a href="#">Content Creation</a>
-                      </li>
-                      <li>
-                        <a href="#">Analytics & Reporting</a>
-                      </li>
+                        <a href="#">Analyse et rapportage</a>
+                      </li> 
                     </ul>
                     <p>
-                      We optimize websites for search engines to improve
-                      visibility, drive organic traffic, and increase
+                      Nous optimisons les sites web pour les moteurs de recherche
+                      pour améliorer la visibilité, le trafic organique et les
                       conversions.
                     </p>
                     <Link className="explore-btn" href="/service3">
-                      Explore More
+                      En savoir plus
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={12}

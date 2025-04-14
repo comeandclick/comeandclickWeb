@@ -102,16 +102,24 @@ Version: 1.0
 ===========================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 :root {
     --font-fahkwang: 'Fahkwang', sans-serif;
     --font-unbounded: 'Unbounded', sans-serif;
+    --font-PlayFair: 'Playfair Display', serif; /* Fixed font family name */
+    --font-Poppins: 'Poppins', serif;
+
+
+
+
     // Colors ---------------
-    --primary-color: #EC6219;
-    --primary-color2: #F4CB0A;
-    --primary-color3: #1A1A1A;
-    --primary-color4: #78EB54;
+    --primary-color: #001c55;
+    --primary-color2: #001d3d;
+    --primary-color3: #003566;
+    --primary-color4: #00b4d8;
     --title-color: #1A1A1A;
     --title-color-opc: 26, 26, 26;
     --dark-title-color: #1A1A1A;
@@ -8425,8 +8433,8 @@ footer{
                   }
                 }
                 &:hover{
-                  background-color: #FF4820;
-                  border-color: #FF4820;
+                  background-color: #00b4d8;
+                  border-color: #003566;
                   svg{
                     fill: var(--white-color);
                   }

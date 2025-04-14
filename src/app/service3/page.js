@@ -7,7 +7,7 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title: "Come & Click - Digital Agency",
+  title: "Come & Click - Agence Digitale",
   icons: {
     icon: "/assets/img/sm-logo.svg",
   },
@@ -17,56 +17,49 @@ const Service3Page = () => {
   return (
     <>
       <Header />
-      <Breadcrumb bgImg="3" title2="SMART DIGITAL SOLUTIONS" title="WE PROVIDE" />
+      <Breadcrumb bgImg="3" title2=" Services" title="Nos" />
       <div className="home2-services-section pt-130 mb-130">
         <div className="container-lg container-fluid">
           <div className="row mb-60">
             <div className="col-lg-12">
               <div className="section-title four text-animation">
                 <h2>
-                  EMPOWERING YOUR <br />
-                  <span>SUCCESS</span>
+                  DYNAMISER VOTRE <br />
+                  <span>SUCCÈS</span>
                 </h2>
-                <div className="dash-and-paragraph three">
-                  <div className="btn-and-paragraph">
-                    <p>
-                      Offer a wide range of services to help businesses
-                      establish and enhance their online presence.
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
           <div className="services-wrapper">
             <div className="service-card">
-              <h3>1. Graphics Design</h3>
+              <h3>1. Design Graphique</h3>
               <p>
-                Professional graphic design services creating stunning visuals, logos, 
-                branding materials and marketing collateral that capture your brand essence.
+                Services de design graphique professionnels créant des visuels 
+                impressionnants, des logos, des supports de marque et des 
+                supports marketing qui capturent l'essence de votre marque.
               </p>
               <ul>
                 <li>
-                  <a href="#">Branding</a>
+                  <a href="#">Image de marque</a>
                 </li>
                 <li>
-                  <a href="#">Logo Design</a>
+                  <a href="#">Création de logo</a>
                 </li>
                 <li>
-                  <a href="#">Print Design</a>
+                  <a href="#">Design d'impression</a>
                 </li>
                 <li>
-                  <a href="#">Marketing Materials</a>
+                  <a href="#">Supports marketing</a>
                 </li>
                 <li>
-                  <a href="#">Social Media Graphics</a>
+                  <a href="#">Graphiques pour réseaux sociaux</a>
                 </li>
                 <li>
-                  <a href="#">Graphic Design</a>
+                  <a href="#">Design graphique</a>
                 </li>
               </ul>
               <Link className="primary-btn2 btn-hover" href="/contact">
-                Explore More
+                En savoir plus
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={12}
@@ -79,30 +72,31 @@ const Service3Page = () => {
               </Link>
             </div>
             <div className="service-card">
-              <h3>2. Web Design & Development</h3>
+              <h3>2. Conception & Développement Web</h3>
               <p>
-                End-to-end web solutions from custom website design to full-stack development,
-                creating responsive and engaging online experiences.
+                Solutions web complètes, de la conception de sites web personnalisés
+                au développement full-stack, créant des expériences en ligne
+                réactives et engageantes.
               </p>
               <ul>
                 <li>
-                  <a href="#">Custom Websites</a>
+                  <a href="#">Sites Web Personnalisés</a>
                 </li>
                 <li>
                   <a href="#">E-commerce</a>
                 </li>
                 <li>
-                  <a href="#">CMS Development</a>
+                  <a href="#">Développement CMS</a>
                 </li>
                 <li>
-                  <a href="#">Responsive Design</a>
+                  <a href="#">Design Responsive</a>
                 </li>
                 <li>
-                  <a href="#">Web Maintenance</a>
+                  <a href="#">Maintenance Web</a>
                 </li>
               </ul>
               <Link className="primary-btn2 btn-hover" href="/contact">
-                Explore More
+                En savoir plus
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={12}
@@ -115,30 +109,31 @@ const Service3Page = () => {
               </Link>
             </div>
             <div className="service-card">
-              <h3>3. Mobile App Development</h3>
+              <h3>3. Développement d'Applications Mobiles</h3>
               <p>
-                Native and cross-platform mobile application development delivering 
-                intuitive, feature-rich apps for iOS and Android platforms.
+                Développement d'applications mobiles natives et multiplateformes
+                offrant des applications intuitives et riches en fonctionnalités
+                pour iOS et Android.
               </p>
               <ul>
                 <li>
-                  <a href="#">iOS Development</a>
+                  <a href="#">Développement iOS</a>
                 </li>
                 <li>
-                  <a href="#">Android Development</a>
+                  <a href="#">Développement Android</a>
                 </li>
                 <li>
-                  <a href="#">Cross-Platform</a>
+                  <a href="#">Multiplateforme</a>
                 </li>
                 <li>
-                  <a href="#">App Testing</a>
+                  <a href="#">Test d'Applications</a>
                 </li>
                 <li>
-                  <a href="#">App Maintenance</a>
+                  <a href="#">Maintenance d'Applications</a>
                 </li>
               </ul>
               <Link className="primary-btn2 btn-hover" href="/contact">
-                Explore More
+                En savoir plus
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={12}
@@ -151,30 +146,31 @@ const Service3Page = () => {
               </Link>
             </div>
             <div className="service-card">
-              <h3>4. UX/UI Design</h3>
+              <h3>4. Design UX/UI</h3>
               <p>
-                User-centered design solutions that enhance user experience through
-                intuitive interfaces, seamless navigation and engaging interactions.
+                Solutions de design centrées sur l'utilisateur qui améliorent
+                l'expérience utilisateur grâce à des interfaces intuitives,
+                une navigation fluide et des interactions engageantes.
               </p>
               <ul>
                 <li>
-                  <a href="#">User Research</a>
+                  <a href="#">Recherche Utilisateur</a>
                 </li>
                 <li>
                   <a href="#">Wireframing</a>
                 </li>
                 <li>
-                  <a href="#">Prototyping</a>
+                  <a href="#">Prototypage</a>
                 </li>
                 <li>
-                  <a href="#">Interface Design</a>
+                  <a href="#">Design d'Interface</a>
                 </li>
                 <li>
-                  <a href="#">Usability Testing</a>
+                  <a href="#">Tests d'Utilisabilité</a>
                 </li>
               </ul>
               <Link className="primary-btn2 btn-hover" href="/contact">
-                Explore More
+                En savoir plus
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={12}
@@ -187,30 +183,31 @@ const Service3Page = () => {
               </Link>
             </div>
             <div className="service-card">
-              <h3>5. SEO Optimization</h3>
+              <h3>5. Optimisation SEO</h3>
               <p>
-                Comprehensive SEO services to improve your website's visibility,
-                drive organic traffic and achieve higher search engine rankings.
+                Services SEO complets pour améliorer la visibilité de votre site web,
+                générer du trafic organique et atteindre un meilleur classement
+                dans les moteurs de recherche.
               </p>
               <ul>
                 <li>
-                  <a href="#">Keyword Research</a>
+                  <a href="#">Recherche de Mots-clés</a>
                 </li>
                 <li>
-                  <a href="#">On-Page SEO</a>
+                  <a href="#">SEO On-Page</a>
                 </li>
                 <li>
-                  <a href="#">Technical SEO</a>
+                  <a href="#">SEO Technique</a>
                 </li>
                 <li>
-                  <a href="#">Link Building</a>
+                  <a href="#">Netlinking</a>
                 </li>
                 <li>
-                  <a href="#">Analytics</a>
+                  <a href="#">Analytique</a>
                 </li>
               </ul>
               <Link className="primary-btn2 btn-hover" href="/contact">
-                Explore More
+                En savoir plus
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={12}

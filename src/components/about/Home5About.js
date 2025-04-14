@@ -10,7 +10,10 @@ const Home5About = () => {
           <div className="row">
             <div className="col-lg-6 col-md-8">
               <div className="section-title text-animation">
-                <h2>Enhancing Business Identity Through Digital Excellence</h2>
+                <h2>
+                  Valoriser l'identité d'entreprise grâce à l'excellence
+                  digitale
+                </h2>
               </div>
             </div>
           </div>
@@ -22,14 +25,14 @@ const Home5About = () => {
                     <h2 className="counter">60</h2>
                     <span>+</span>
                   </div>
-                  <p>Successful Projects</p>
+                  <p>Projets Réussis</p>
                 </li>
                 <li className="single-counter">
                   <div className="number">
                     <h2 className="counter">32</h2>
                     <span>+</span>
                   </div>
-                  <p>Happy Clients</p>
+                  <p>Clients Satisfaits</p>
                 </li>
               </ul>
             </div>
@@ -37,16 +40,24 @@ const Home5About = () => {
               <div className="about-content-wrap">
                 <div className="about-content">
                   <p>
-                    For the past 2 years, Come & Click has been at the forefront of digital transformation, 
-                    helping businesses establish and enhance their digital presence. Our comprehensive service 
-                    portfolio includes web development, brand identity design, digital marketing, and e-commerce 
-                    solutions. We take pride in our ability to understand each client's unique needs and deliver 
-                    tailored solutions that drive real business growth. Our young and dynamic team brings fresh 
-                    perspectives while maintaining professional excellence in every project we undertake. From 
-                    startups to established businesses, we've helped numerous clients achieve their digital goals 
-                    through innovative strategies and cutting-edge technologies. Our commitment to quality and 
-                    client satisfaction has made us a trusted partner in the digital space.
+                    Depuis 2 ans, Come & Click est à la pointe de la
+                    transformation digitale, aidant les entreprises à établir et
+                    renforcer leur présence en ligne. Notre portefeuille de
+                    services complet comprend le développement web, la création
+                    d'identité de marque, le marketing digital et les solutions
+                    e-commerce. Nous sommes fiers de notre capacité à comprendre
+                    les besoins uniques de chaque client et à proposer des
+                    solutions sur mesure qui favorisent une réelle croissance.
+                    Notre équipe jeune et dynamique apporte un regard neuf tout
+                    en maintenant un niveau d'excellence professionnelle dans
+                    chaque projet. Des startups aux entreprises bien établies,
+                    nous avons aidé de nombreux clients à atteindre leurs
+                    objectifs digitaux grâce à des stratégies innovantes et des
+                    technologies de pointe. Notre engagement envers la qualité
+                    et la satisfaction client fait de nous un partenaire de
+                    confiance dans l'univers digital.
                   </p>
+
                   <div className="star">
                     <svg
                       width={125}
@@ -59,7 +70,7 @@ const Home5About = () => {
                   </div>
                 </div>
                 <Link className="primary-btn4 btn-hover" href="/contact">
-                  Get On Board
+                  Rejoignez l'aventure
                   <svg
                     width={11}
                     height={11}

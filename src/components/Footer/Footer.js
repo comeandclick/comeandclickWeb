@@ -26,12 +26,12 @@ const Footer = () => {
                   <div className="col-xl-6 col-lg-6 col-md-8 d-flex justify-content-lg-start">
                     <div className="footer-widget">
                       <div className="subscribed-area">
-                        <h3>Contact us now to get started!</h3>
+                        <h3>Contactez-nous maintenant pour commencer!</h3>
                         <Link
                           className="primary-btn3 btn-hover"
                           href="/contact"
                         >
-                          Become A Client
+                          Devenez un client
                           <svg
                             width={11}
                             height={11}
@@ -52,13 +52,13 @@ const Footer = () => {
                   <div className="col-xl-3 col-lg-3 col-sm-6 d-flex justify-content-lg-center">
                     <div className="footer-widget">
                       <div className="widget-title">
-                        <h4>Quick Links</h4>
+                        <h4>Liens rapides</h4>
                       </div>
                       <div className="menu-container">
                         <ul>
                           <li>
                             <Link href="/about-me">
-                              About Agency
+                              À propos de l'agence
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={10}
@@ -71,7 +71,7 @@ const Footer = () => {
                           </li>
                           <li>
                             <Link href="/service3">
-                              Services
+                              Nos Services
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={10}
@@ -97,7 +97,7 @@ const Footer = () => {
                           </li>
                           <li>
                             <Link href="/pricing">
-                              Pricing
+                              Tarifs
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={10}
@@ -123,7 +123,7 @@ const Footer = () => {
                           </li>
                           <li>
                             <Link href="contact">
-                              Contact Us
+                              Contactez-nous
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={10}
@@ -141,13 +141,13 @@ const Footer = () => {
                   <div className="col-xl-3 col-lg-3 col-sm-6 d-flex justify-content-lg-end">
                     <div className="footer-widget">
                       <div className="widget-title">
-                        <h4 className="text-transparent">Legal</h4>
+                        <h4 className="text-transparent">Mentions légales</h4>
                       </div>
                       <div className="menu-container">
                         <ul>
                           <li>
                             <Link href="/terms-conditions">
-                              Terms & Conditions
+                              Conditions d'utilisation
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={10}
@@ -210,7 +210,7 @@ const Footer = () => {
               <div className="footer-btm">
                 <div className="copyright-area">
                   <p>
-                    Copyright 2025 <a href="#">Come & Click</a> | Design By{" "}
+                    Copyright © 2025 <a href="#">Come & Click</a> | Conçu par{" "}
                     <a href="https://designloop.framer.website/">DesignLoop </a>
                   </p>
                 </div>

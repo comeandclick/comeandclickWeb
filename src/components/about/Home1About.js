@@ -11,8 +11,10 @@ const Home1About = () => {
         <div className="row g-4 mb-60">
           <div className="col-lg-4">
             <div className="sub-title two text-animation">
-              <h6>
-                Who We Are
+              <h6
+                style={{ fontFamily: "Playfair Display", fontStyle: "italic" }}
+              >
+                Qui sommes-nous
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={50}
@@ -26,10 +28,11 @@ const Home1About = () => {
           </div>
           <div className="col-lg-8">
             <div className="section-title two text-animation">
-              <h2>
-                Come & Click is your one-stop digital agency, crafting powerful
-                online solutions through expert marketing, development and
-                design to elevate your brand's digital presence.
+              <h2 >
+                Come & Click est votre agence digitale tout-en-un, créant des
+                solutions en ligne puissantes grâce à une expertise en
+                marketing, développement et design pour renforcer la présence
+                numérique de votre marque.
               </h2>
             </div>
           </div>
@@ -37,7 +40,7 @@ const Home1About = () => {
         <div className="row">
           <div className="col-lg-4 d-lg-flex d-none justify-content-end align-items-start">
             <div className="about-left animet-images magnetic-item pt-30 rounded-3">
-              <img src="assets/img/home1/about-left.png" alt="" />
+              <img src="assets/img/home1/handpoint.jpeg" alt="" />
             </div>
           </div>
           <div className="col-lg-8">
@@ -49,13 +52,15 @@ const Home1About = () => {
               </div>
               <div className="col-lg-7">
                 <div className="about-content text-animation">
-                  <p>
-                    We specialize in delivering exceptional digital solutions through web 
-                    development, digital marketing, and creative design. Our passionate team 
-                    transforms visions into impactful digital experiences.
+                  <p style={{ textAlign: "justify"}}>
+                    Nous sommes spécialisés dans la création de solutions
+                    digitales d'exception à travers le développement web, le
+                    marketing digital et le design créatif. Notre équipe
+                    passionnée transforme vos visions en expériences numériques
+                    percutantes.
                   </p>
                   <Link href="/about-me">
-                    About More
+                    En savoir plus
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
@@ -75,14 +80,23 @@ const Home1About = () => {
                         width={150}
                         height={145}
                         viewBox="0 0 150 145"
-                        
                       >
                         <g>
-                          <path d="M150 60.2308H105.604L137.033 29.8498L119.011 12.5348L87.6923 42.9158V0H62.3077V42.9158L30.8791 12.5348L12.967 29.8498L44.3956 60.2308H0V84.7692H44.3956L12.967 115.044L30.8791 132.465L62.3077 102.084V145H87.6923V102.084L119.011 132.465L137.033 115.044L105.604 84.7692H150V60.2308Z" fill="url(#star-gradient)"/>
+                          <path
+                            d="M150 60.2308H105.604L137.033 29.8498L119.011 12.5348L87.6923 42.9158V0H62.3077V42.9158L30.8791 12.5348L12.967 29.8498L44.3956 60.2308H0V84.7692H44.3956L12.967 115.044L30.8791 132.465L62.3077 102.084V145H87.6923V102.084L119.011 132.465L137.033 115.044L105.604 84.7692H150V60.2308Z"
+                            fill="url(#star-gradient)"
+                          />
                           <defs>
-                            <linearGradient id="star-gradient" x1="0" y1="0" x2="150" y2="145" gradientUnits="userSpaceOnUse">
-                              <stop offset="0%" stopColor="#219ebc"/>
-                              <stop offset="100%" stopColor="#023047"/>
+                            <linearGradient
+                              id="star-gradient"
+                              x1="0"
+                              y1="0"
+                              x2="150"
+                              y2="145"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop offset="0%" stopColor="#219ebc" />
+                              <stop offset="100%" stopColor="#023047" />
                             </linearGradient>
                           </defs>
                         </g>
@@ -101,7 +115,7 @@ const Home1About = () => {
                     </h2>
                     <span>+</span>
                   </div>
-                  <p>Professional Experts</p>
+                  <p>Experts professionnels</p>
                 </div>
               </li>
               <li className="single-counter">
@@ -112,7 +126,7 @@ const Home1About = () => {
                     </h2>
                     <span>+</span>
                   </div>
-                  <p>Projects Complete</p>
+                  <p>Projets completés</p>
                 </div>
               </li>
               <li className="single-counter">
@@ -123,7 +137,7 @@ const Home1About = () => {
                     </h2>
                     <span>+</span>
                   </div>
-                  <p>World-wide Clients</p>
+                  <p>Clients dans le monde</p>
                 </div>
               </li>
             </ul>

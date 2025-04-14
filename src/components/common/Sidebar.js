@@ -53,13 +53,13 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
         <div className="nav-right d-flex jsutify-content-end align-items-center">
           <div className="sidebar-menu-close"  onClick={toggleMenu}>
             <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 18 18">
-              <path fillRule="evenodd" clipRule="evenodd" d="M18 0L11.1686 8.99601L18 18L9.0041 11.1605L0 18L6.83156 8.99601L0 0L9.0041 6.83156L18 0Z">
+              <path fillRule="evenodd" clipRule="evenodd" d="M18 0L11.1686 8.99601L18 18L9.0041 11.1605L0 18L6.83156 8.99601L0 0L9.0041 6.83156L18 0Z" style={{fill: '#000'}}>
               </path>
             </svg>
           </div>
           <a href="/contact" className="header-btn btn-hover">
             <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12">
-              <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
+              <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" fill="#00b4d8">
               </path>
             </svg>
             Get in Touch

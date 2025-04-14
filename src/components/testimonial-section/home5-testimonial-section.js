@@ -15,69 +15,70 @@ const Home5TestimonialSection = () => {
   const testimonialData = [
     {
       id: 1,
-      tag: "Website Development",
+      tag: "Développement de site web",
       description:
-        "Exceptional web development service! They built us a modern, responsive website that perfectly captures our brand and drives conversions. The attention to technical details was impressive.",
+        "Service de développement web exceptionnel ! Ils nous ont créé un site moderne et réactif qui reflète parfaitement notre marque et stimule les conversions. Leur souci du détail technique est impressionnant.",
       authorName: "John Smith",
-      designation: "Tech Solutions, CEO",
+      designation: "Tech Solutions, PDG",
     },
     {
       id: 2,
-      tag: "Website Development", 
+      tag: "Développement de site web",
       description:
-        "Outstanding development team that delivered a fast, secure and scalable website. Their coding expertise and problem-solving abilities exceeded our expectations.",
+        "Une équipe de développement remarquable qui a livré un site rapide, sécurisé et évolutif. Leur expertise en codage et leur capacité à résoudre les problèmes ont dépassé nos attentes.",
       authorName: "Michael Williams",
       designation: "Digital Innovations, CTO",
     },
     {
       id: 3,
-      tag: "Ecommerce Development",
+      tag: "Développement e-commerce",
       description:
-        "They built us a powerful ecommerce platform with seamless payment integration, inventory management and an intuitive shopping experience. Sales have increased significantly.",
+        "Ils nous ont créé une plateforme e-commerce performante avec intégration de paiement, gestion des stocks et une expérience d'achat intuitive. Nos ventes ont considérablement augmenté.",
       authorName: "David Brown",
-      designation: "Fashion Retail, Owner",
+      designation: "Fashion Retail, Propriétaire",
     },
     {
       id: 4,
-      tag: "Ecommerce Development",
+      tag: "Développement e-commerce",
       description:
-        "The ecommerce solution they developed revolutionized our online business. Great features like product filtering, wishlists and a smooth checkout process.",
+        "La solution e-commerce qu'ils ont développée a révolutionné notre activité en ligne. Excellentes fonctionnalités comme le filtrage des produits, les listes de souhaits et un processus de paiement fluide.",
       authorName: "James Anderson",
-      designation: "Electronics Store, CEO",
+      designation: "Electronics Store, PDG",
     },
     {
       id: 5,
-      tag: "Logo Design",
+      tag: "Conception de logo",
       description:
-        "Created a stunning, memorable logo that perfectly represents our brand identity. Their creative process and attention to detail was remarkable.",
+        "Un logo magnifique et mémorable qui représente parfaitement notre identité de marque. Leur processus créatif et leur souci du détail étaient remarquables.",
       authorName: "William Taylor",
-      designation: "Startup Founder",
+      designation: "Fondateur de startup",
     },
     {
       id: 6,
-      tag: "Logo Design",
+      tag: "Conception de logo",
       description:
-        "Professional logo design service that captured the essence of our business. The final design is versatile and makes a strong impact.",
+        "Service de conception de logo professionnel qui a capté l’essence de notre entreprise. Le design final est polyvalent et a un fort impact.",
       authorName: "Thomas Wilson",
-      designation: "Marketing Agency, Director",
+      designation: "Agence de marketing, Directeur",
     },
     {
       id: 7,
-      tag: "Website Design",
+      tag: "Conception de site web",
       description:
-        "Incredible UI/UX design that transformed our website. The modern, clean interface and thoughtful user experience has greatly improved engagement.",
+        "Une conception UI/UX incroyable qui a transformé notre site web. L'interface moderne et épurée ainsi que l'expérience utilisateur bien pensée ont grandement amélioré l'engagement.",
       authorName: "Richard Davis",
-      designation: "SaaS Company, CEO",
+      designation: "Entreprise SaaS, PDG",
     },
     {
       id: 8,
-      tag: "SEO Services",
+      tag: "Services SEO",
       description:
-        "Their SEO expertise dramatically improved our search rankings and organic traffic. Great technical optimization and content strategy.",
+        "Leur expertise en SEO a considérablement amélioré notre classement dans les moteurs de recherche et notre trafic organique. Excellente optimisation technique et stratégie de contenu.",
       authorName: "Charles Miller",
-      designation: "Online Business, Founder",
+      designation: "Entreprise en ligne, Fondateur",
     },
   ];
+  
 
   const settings = useMemo(() => {
     return {
@@ -110,7 +111,7 @@ const Home5TestimonialSection = () => {
         <div className="row">
           <div className="col-xl-5 col-lg-7">
             <div className="section-title text-animation mb-15">
-              <h2>What Client&apos;s Say About us</h2>
+            <h2>Ce que nos clients disent de nous</h2>
             </div>
           </div>
         </div>
@@ -119,12 +120,11 @@ const Home5TestimonialSection = () => {
             <div className="paragraph-and-btn-area">
               <div className="text-animation">
                 <p>
-                  We're a creative agency specializing in crafting exceptional
-                  design and user experiences that drive results.
+                Nous sommes une agence créative spécialisée dans la création de designs exceptionnels et d'expériences utilisateurs qui produisent des résultats.
                 </p>
               </div>
               <Link className="primary-btn4 btn-hover" href="/contact">
-                Become A Client
+                Devenez un client
                 <svg
                   width={11}
                   height={11}
