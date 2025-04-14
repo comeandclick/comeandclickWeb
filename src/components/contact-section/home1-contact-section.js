@@ -8,14 +8,13 @@ const Home1ContactSection = () => {
     <div className="row g-lg-4 gy-5">
       <div className="col-lg-8">
         <div className="section-title text-animation">
-          <h2>Let&apos;s <span>TALK</span></h2>
-          <div className="dash-and-paragraph">
+        <h2>Discutons </h2>
+        <div className="dash-and-paragraph">
             <div className="dash" />
             <div className="content-and-social">
-              <p>Crafting a contact text for a digital agency involves providing essential
-                information for potential clients or collaborators to reach out.</p>
+              <p>Créer un texte de contact pour une agence digitale implique de fournir des informations essentielles pour que les potentiels clients ou collaborateurs puissent nous contacter.</p>
               <div className="social-area">
-                <h6>Connect Us</h6>
+                <h6>Instagram</h6>
                 <svg xmlns="http://www.w3.org/2000/svg" width={50} height={6} viewBox="0 0 50 6">
                   <path d="M50 3L45 0.113249V5.88675L50 3ZM0 3.5H45.5V2.5H0V3.5Z" />
                 </svg>
@@ -33,7 +32,7 @@ const Home1ContactSection = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12">
               <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z">
               </path>
-            </svg> Contact <strong>Now</strong>
+            </svg> Contactez-nous
             <span style={{top: '50.5px', left: '83.75px'}} />
           </Link>
         </div>

@@ -1,12 +1,11 @@
 import Footer from "@/components/Footer/Footer";
 import Home5About from "@/components/about/Home5About";
-import Home5ExperienceSection from "@/components/experience-section/home5-experience-section";
 import Header from "@/components/header/Header";
-import Home5ServiceSection from "@/components/services-section/home5-service-section";
+// import Home5ServiceSection from "@/components/services-section/home5-service-section";
 import React from "react";
 
 export const metadata = {
-  title: "Come & Click - Digital Agency",
+  title: "Come & Click - Agence Digitale",
   icons: {
     icon: "/assets/img/sm-logo.svg",
   },
@@ -19,10 +18,26 @@ const AboutMe = () => {
       <div
         className="breadcrumb-section"
         style={{
-          backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/img/innerpage/breadcrumb-bg2.jpg)",
+          position: "relative",
+          overflow: "hidden",
+          height: "50vh",
         }}
       >
+        <video
+          autoPlay
+          muted
+          loop
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "center",
+            zIndex: -1,
+          }}
+        >
+          <source src="/assets/video/banner3.mp4" type="video/mp4" />
+        </video>
         <svg
           className="vector"
           xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +57,7 @@ const AboutMe = () => {
               <div className="row">
                 <div className="col-lg-5">
                   <div className="section-title white">
-                    <h1>About Agency</h1>
+                    <h1 style={{ fontSize: "32px" }}>À propos de l'agence</h1>
                   </div>
                 </div>
                 <div className="col-lg-7 d-flex align-items-end">
@@ -55,7 +70,9 @@ const AboutMe = () => {
                     </svg>
                     <div className="btn-and-paragraph">
                       <p>
-                        We are a creative digital agency specializing in web design, development and digital marketing solutions.
+                        Nous sommes une agence digitale créative spécialisée
+                        dans le design web, le développement et les solutions de
+                        marketing numérique.
                       </p>
                     </div>
                   </div>
@@ -64,16 +81,15 @@ const AboutMe = () => {
             </div>
             <ul className="breadcrumb-list">
               <li>
-                <a href="/">Home</a>
+                <a href="/">Accueil</a>
               </li>
-              <li>About Agency</li>
+              <li>À propos de l'agence</li>
             </ul>
           </div>
         </div>
       </div>
       <Home5About />
-      <Home5ExperienceSection />
-      <Home5ServiceSection />
+      {/* <Home5ServiceSection /> */}
       <Footer />
     </>
   );

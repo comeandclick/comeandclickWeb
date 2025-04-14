@@ -3,7 +3,7 @@ import Header from "@/components/header/Header";
 import React from "react";
 
 export const metadata = {
-  title: "Come & Click - Pricing",
+  title: "Come & Click - Tarifs",
   icons: {
     icon: "/assets/img/sm-logo.svg",
   },
@@ -12,9 +12,9 @@ export const metadata = {
 const page = () => {
   // Using darker color codes for cards
   const cardColors = {
-    blue: "#BBDEFB", // Darker blue
-    pink: "#F8BBD0", // Darker pink  
-    green: "#C8E6C9" // Darker green
+    blue: "#001D34FF", // Darker blue
+    pink: "#070124FF", // Darker pink  
+    green: "#03000EFF" // Darker green
   };
 
   return (
@@ -23,8 +23,8 @@ const page = () => {
       <div className="pricing-page pt-130 mb-130">
         <div className="container-lg container-fluid">
           <div className="section-title-and-tab-btn mb-70">
-            <h1>Our Services & Pricing Plans</h1>
-            <div className="arrow-and-tab-btn">
+          <h1>Nos Services et Tarifs</h1>
+          <div className="arrow-and-tab-btn">
               <svg viewBox="0 0 987 58" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M1 29H985M985 29C976.333 32.1667 959 41.4 959 57M985 29C976.333 25.8333 959 15.8 959 1"
@@ -43,7 +43,7 @@ const page = () => {
                       role="tab"
                       aria-selected="true"
                     >
-                      Website Development
+                      Développement Web
                     </button>
                     <button
                       className="nav-link flex-grow-1"
@@ -65,7 +65,7 @@ const page = () => {
                       role="tab"
                       aria-selected="false"
                     >
-                      Booking Sites
+                      Sites de Réservation
                     </button>
                     <button
                       className="nav-link flex-grow-1"
@@ -76,7 +76,7 @@ const page = () => {
                       role="tab"
                       aria-selected="false"
                     >
-                      Mobile Development
+                      Développement Mobile
                     </button>
                     <button
                       className="nav-link flex-grow-1"
@@ -87,7 +87,7 @@ const page = () => {
                       role="tab"
                       aria-selected="false"
                     >
-                      Logo Design
+                      Création de Logo
                     </button>
                     <button
                       className="nav-link flex-grow-1"
@@ -98,7 +98,7 @@ const page = () => {
                       role="tab"
                       aria-selected="false"
                     >
-                      SEO Services
+                      Services SEO
                     </button>
                   </div>
                 </nav>
@@ -114,17 +114,17 @@ const page = () => {
                   <div className="pricing-card" style={{backgroundColor: cardColors.blue}}>
                     <div className="pricing-top">
                       <span>Standard</span>
-                      <h2>€600 - €1,300<sub>/one-time</sub></h2>
+                      <h2>€600 - €1,300<sub>/unique</sub></h2>
                     </div>
                     <div className="pricing-content" style={{color: '#000000'}}>
                       <ul>
-                        <li>3-5 Pages Website</li>
-                        <li>Responsive Design</li>
-                        <li>Basic Contact Forms</li>
-                        <li>Essential Features</li>
-                        <li>Basic Support</li>
+                        <li>Site Web 3-5 Pages</li>
+                        <li>Design Responsive</li>
+                        <li>Formulaires de Contact Basiques</li>
+                        <li>Fonctionnalités Essentielles</li>
+                        <li>Support de Base</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Get Started</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Commencer</a>
                     </div>
                   </div>
                 </div>
@@ -133,17 +133,17 @@ const page = () => {
                   <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
                     <div className="pricing-top">
                       <span>Premium</span>
-                      <h2>€1,400 - €2,800<sub>/one-time</sub></h2>
+                      <h2>€1,400 - €2,800<sub>/unique</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>SEO Optimization</li>
-                        <li>Advanced CMS</li>
-                        <li>Custom Animations</li>
-                        <li>Premium Support</li>
-                        <li>Performance Optimization</li>
+                        <li>Optimisation SEO</li>
+                        <li>CMS Avancé</li>
+                        <li>Animations Personnalisées</li>
+                        <li>Support Premium</li>
+                        <li>Optimisation des Performances</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Get Started</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Commencer</a>
                     </div>
                   </div>
                 </div>
@@ -151,18 +151,18 @@ const page = () => {
                 <div className="col-lg-4 col-md-6">
                   <div className="pricing-card" style={{backgroundColor: cardColors.green}}>
                     <div className="pricing-top">
-                      <span>Custom Plan</span>
-                      <h2>On Request<sub>/quote</sub></h2>
+                      <span>Plan Personnalisé</span>
+                      <h2>Sur Demande<sub>/devis</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>Tailor-made Development</li>
-                        <li>Advanced Features</li>
-                        <li>Custom Integrations</li>
-                        <li>Priority Support</li>
-                        <li>Scalable Solutions</li>
+                        <li>Développement Sur Mesure</li>
+                        <li>Fonctionnalités Avancées</li>
+                        <li>Intégrations Personnalisées</li>
+                        <li>Support Prioritaire</li>
+                        <li>Solutions Évolutives</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Contact Us</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Nous Contacter</a>
                     </div>
                   </div>
                 </div>
@@ -176,17 +176,17 @@ const page = () => {
                   <div className="pricing-card" style={{backgroundColor: cardColors.blue}}>
                     <div className="pricing-top">
                       <span>Standard</span>
-                      <h2>€1,200 - €2,200<sub>/one-time</sub></h2>
+                      <h2>€1,200 - €2,200<sub>/unique</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>Simple Online Store</li>
-                        <li>10-20 Products</li>
+                        <li>Boutique en Ligne Simple</li>
+                        <li>10-20 Produits</li>
                         <li>WooCommerce/Shopify</li>
-                        <li>Basic Payment Gateway</li>
-                        <li>Standard Support</li>
+                        <li>Passerelle de Paiement Basique</li>
+                        <li>Support Standard</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Get Started</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Commencer</a>
                     </div>
                   </div>
                 </div>
@@ -195,17 +195,17 @@ const page = () => {
                   <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
                     <div className="pricing-top">
                       <span>Premium</span>
-                      <h2>€2,700 - €4,700<sub>/one-time</sub></h2>
+                      <h2>€2,700 - €4,700<sub>/unique</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>Marketplace Setup</li>
-                        <li>Advanced Stock Management</li>
-                        <li>Process Automation</li>
-                        <li>Secure Payment Systems</li>
-                        <li>Premium Support</li>
+                        <li>Configuration Marketplace</li>
+                        <li>Gestion Avancée des Stocks</li>
+                        <li>Automatisation des Processus</li>
+                        <li>Systèmes de Paiement Sécurisés</li>
+                        <li>Support Premium</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Get Started</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Commencer</a>
                     </div>
                   </div>
                 </div>
@@ -213,18 +213,18 @@ const page = () => {
                 <div className="col-lg-4 col-md-6">
                   <div className="pricing-card" style={{backgroundColor: cardColors.green}}>
                     <div className="pricing-top">
-                      <span>Custom Plan</span>
-                      <h2>On Request<sub>/quote</sub></h2>
+                      <span>Plan Personnalisé</span>
+                      <h2>Sur Demande<sub>/devis</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>Custom E-commerce</li>
-                        <li>API Integration</li>
-                        <li>Multilingual Setup</li>
-                        <li>Advanced Features</li>
-                        <li>24/7 Support</li>
+                        <li>E-commerce Personnalisé</li>
+                        <li>Intégration API</li>
+                        <li>Configuration Multilingue</li>
+                        <li>Fonctionnalités Avancées</li>
+                        <li>Support 24/7</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Contact Us</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Nous Contacter</a>
                     </div>
                   </div>
                 </div>
@@ -238,17 +238,17 @@ const page = () => {
                   <div className="pricing-card" style={{backgroundColor: cardColors.blue}}>
                     <div className="pricing-top">
                       <span>Standard</span>
-                      <h2>€1,400 - €2,600<sub>/one-time</sub></h2>
+                      <h2>€1,400 - €2,600<sub>/unique</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>Booking Module</li>
-                        <li>Online Payments</li>
-                        <li>Calendar Management</li>
-                        <li>Basic Notifications</li>
-                        <li>Standard Support</li>
+                        <li>Module de Réservation</li>
+                        <li>Paiements en Ligne</li>
+                        <li>Gestion du Calendrier</li>
+                        <li>Notifications de Base</li>
+                        <li>Support Standard</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Get Started</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Commencer</a>
                     </div>
                   </div>
                 </div>
@@ -257,17 +257,17 @@ const page = () => {
                   <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
                     <div className="pricing-top">
                       <span>Premium</span>
-                      <h2>€3,100 - €5,600<sub>/one-time</sub></h2>
+                      <h2>€3,100 - €5,600<sub>/unique</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>Advanced Management System</li>
-                        <li>Platform Synchronization</li>
-                        <li>Real-time Availability</li>
-                        <li>Advanced Analytics</li>
-                        <li>Premium Support</li>
+                        <li>Système de Gestion Avancé</li>
+                        <li>Synchronisation des Plateformes</li>
+                        <li>Disponibilité en Temps Réel</li>
+                        <li>Analyses Avancées</li>
+                        <li>Support Premium</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Get Started</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Commencer</a>
                     </div>
                   </div>
                 </div>
@@ -275,18 +275,18 @@ const page = () => {
                 <div className="col-lg-4 col-md-6">
                   <div className="pricing-card" style={{backgroundColor: cardColors.green}}>
                     <div className="pricing-top">
-                      <span>Custom Plan</span>
-                      <h2>On Request<sub>/quote</sub></h2>
+                      <span>Plan Personnalisé</span>
+                      <h2>Sur Demande<sub>/devis</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>Custom Development</li>
-                        <li>Dynamic Pricing</li>
-                        <li>API Integrations</li>
-                        <li>Custom Features</li>
-                        <li>24/7 Support</li>
+                        <li>Développement Personnalisé</li>
+                        <li>Tarification Dynamique</li>
+                        <li>Intégrations API</li>
+                        <li>Fonctionnalités Personnalisées</li>
+                        <li>Support 24/7</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Contact Us</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Nous Contacter</a>
                     </div>
                   </div>
                 </div>
@@ -299,18 +299,18 @@ const page = () => {
                 <div className="col-lg-4 col-md-6 mx-auto">
                   <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
                     <div className="pricing-top">
-                      <span>Custom Development</span>
-                      <h2>Quote Required<sub>/project</sub></h2>
+                      <span>Développement Personnalisé</span>
+                      <h2>Devis Requis<sub>/projet</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>iOS & Android Development</li>
-                        <li>Custom Features</li>
-                        <li>UI/UX Design</li>
-                        <li>App Store Publishing</li>
-                        <li>Ongoing Support</li>
+                        <li>Développement iOS & Android</li>
+                        <li>Fonctionnalités Personnalisées</li>
+                        <li>Design UI/UX</li>
+                        <li>Publication sur l'App Store</li>
+                        <li>Support Continu</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Contact Us</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Nous Contacter</a>
                     </div>
                   </div>
                 </div>
@@ -324,17 +324,17 @@ const page = () => {
                   <div className="pricing-card" style={{backgroundColor: cardColors.blue}}>
                     <div className="pricing-top">
                       <span>Standard</span>
-                      <h2>€80 - €230<sub>/project</sub></h2>
+                      <h2>€80 - €230<sub>/projet</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>3 Logo Concepts</li>
-                        <li>2 Revisions</li>
-                        <li>Source Files</li>
-                        <li>Basic Guidelines</li>
-                        <li>Standard Support</li>
+                        <li>3 Concepts de Logo</li>
+                        <li>2 Révisions</li>
+                        <li>Fichiers Sources</li>
+                        <li>Directives de Base</li>
+                        <li>Support Standard</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Get Started</a>
+                        <a href="/contact" className="primary-btn3 btn-hover">Commencer</a>
                     </div>
                   </div>
                 </div>
@@ -343,17 +343,17 @@ const page = () => {
                   <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
                     <div className="pricing-top">
                       <span>Premium</span>
-                      <h2>€280 - €530<sub>/project</sub></h2>
+                      <h2>€280 - €530<sub>/projet</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>5 Logo Concepts</li>
-                        <li>5 Revisions</li>
-                        <li>Logo Variations</li>
-                        <li>Social Media Kit</li>
-                        <li>Premium Support</li>
+                        <li>5 Concepts de Logo</li>
+                        <li>5 Révisions</li>
+                        <li>Variations du Logo</li>
+                        <li>Kit Réseaux Sociaux</li>
+                        <li>Support Premium</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Get Started</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Commencer</a>
                     </div>
                   </div>
                 </div>
@@ -361,18 +361,18 @@ const page = () => {
                 <div className="col-lg-4 col-md-6">
                   <div className="pricing-card" style={{backgroundColor: cardColors.green}}>
                     <div className="pricing-top">
-                      <span>Custom Plan</span>
-                      <h2>On Request<sub>/quote</sub></h2>
+                      <span>Plan Personnalisé</span>
+                      <h2>Sur Demande<sub>/devis</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>Complete Branding</li>
-                        <li>Brand Guidelines</li>
-                        <li>Unlimited Revisions</li>
-                        <li>Full Asset Package</li>
-                        <li>Priority Support</li>
+                        <li>Identité de Marque Complète</li>
+                        <li>Guide de Marque</li>
+                        <li>Révisions Illimitées</li>
+                        <li>Pack d'Assets Complet</li>
+                        <li>Support Prioritaire</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Contact Us</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Nous Contacter</a>
                     </div>
                   </div>
                 </div>
@@ -385,18 +385,18 @@ const page = () => {
                 <div className="col-lg-4 col-md-6">
                   <div className="pricing-card" style={{backgroundColor: cardColors.blue}}>
                     <div className="pricing-top">
-                      <span>Basic Package</span>
-                      <h2>€300 - €1,000<sub>/project</sub></h2>
+                      <span>Pack Basique</span>
+                      <h2>€300 - €1,000<sub>/projet</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>SEO Audit</li>
-                        <li>Technical Optimization</li>
-                        <li>5 Target Keywords</li>
-                        <li>Monthly Reports</li>
-                        <li>Basic Support</li>
+                        <li>Audit SEO</li>
+                        <li>Optimisation Technique</li>
+                        <li>5 Mots-clés Cibles</li>
+                        <li>Rapports Mensuels</li>
+                        <li>Support de Base</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Get Started</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Commencer</a>
                     </div>
                   </div>
                 </div>
@@ -404,18 +404,18 @@ const page = () => {
                 <div className="col-lg-4 col-md-6">
                   <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
                     <div className="pricing-top">
-                      <span>Advanced Package</span>
-                      <h2>€1,100 - €2,300<sub>/project</sub></h2>
+                      <span>Pack Avancé</span>
+                      <h2>€1,100 - €2,300<sub>/projet</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>Content Strategy</li>
-                        <li>Link Building</li>
-                        <li>3-Month Tracking</li>
-                        <li>Competitor Analysis</li>
-                        <li>Premium Support</li>
+                        <li>Stratégie de Contenu</li>
+                        <li>Création de Liens</li>
+                        <li>Suivi sur 3 Mois</li>
+                        <li>Analyse Concurrentielle</li>
+                        <li>Support Premium</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Get Started</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Commencer</a>
                     </div>
                   </div>
                 </div>
@@ -423,18 +423,18 @@ const page = () => {
                 <div className="col-lg-4 col-md-6">
                   <div className="pricing-card" style={{backgroundColor: cardColors.green}}>
                     <div className="pricing-top">
-                      <span>Custom Plan</span>
-                      <h2>On Request<sub>/quote</sub></h2>
+                      <span>Plan Personnalisé</span>
+                      <h2>Sur Demande<sub>/devis</sub></h2>
                     </div>
                     <div className="pricing-content">
                       <ul>
-                        <li>Full-scale SEO Strategy</li>
-                        <li>International SEO</li>
-                        <li>E-commerce SEO</li>
-                        <li>Custom Reporting</li>
-                        <li>24/7 Support</li>
+                        <li>Stratégie SEO Complète</li>
+                        <li>SEO International</li>
+                        <li>SEO E-commerce</li>
+                        <li>Rapports Personnalisés</li>
+                        <li>Support 24/7</li>
                       </ul>
-                      <a href="/contact" className="primary-btn3">Contact Us</a>
+                      <a href="/contact" className="primary-btn3 btn-hover">Nous Contacter</a>
                     </div>
                   </div>
                 </div>

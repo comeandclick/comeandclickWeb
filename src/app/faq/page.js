@@ -9,56 +9,58 @@ export const metadata = {
   },
 };
 
+
 const faqData = [
   {
     id: 1,
-    question: "What services does your digital agency specialize in?",
+    question: "Quels services propose votre agence digitale ?",
     answer:
-      "Our agency specializes in comprehensive digital solutions including web development, UI/UX design, ecommerce development, logo design, SEO optimization, and digital marketing. We provide end-to-end services to help businesses establish and grow their digital presence.",
+      "Notre agence est spécialisée dans des solutions digitales complètes, notamment le développement web, le design UI/UX, le développement e-commerce, la création de logos, l’optimisation SEO et le marketing digital. Nous offrons des services de bout en bout pour aider les entreprises à établir et développer leur présence en ligne.",
   },
   {
     id: 2,
-    question: "How do you approach website development projects?",
+    question: "Comment abordez-vous les projets de développement de site web ?",
     answer:
-      "We follow a structured approach starting with requirement analysis, followed by UI/UX design, development, testing, and deployment. We use modern technologies and best practices to create responsive, fast-loading, and user-friendly websites that align with your business goals.",
+      "Nous suivons une approche structurée : analyse des besoins, conception UI/UX, développement, tests, puis mise en ligne. Nous utilisons des technologies modernes et les meilleures pratiques pour créer des sites rapides, réactifs et adaptés aux objectifs de votre entreprise.",
   },
   {
     id: 3,
-    question: "What is your typical project timeline and process?",
+    question: "Quel est le délai et le processus typique d'un projet ?",
     answer:
-      "Project timelines vary based on complexity, but typically range from 4-12 weeks. Our process includes initial consultation, proposal submission, design phase, development phase, testing, and launch. We maintain transparent communication throughout and provide regular progress updates.",
+      "Les délais varient selon la complexité, généralement entre 4 et 12 semaines. Notre processus inclut une consultation initiale, la soumission d’une proposition, la phase de design, le développement, les tests et le lancement. Nous maintenons une communication transparente et fournissons des mises à jour régulières.",
   },
   {
     id: 4,
-    question: "Do you provide ongoing support and maintenance?",
+    question: "Proposez-vous un support et une maintenance continue ?",
     answer:
-      "Yes, we offer comprehensive maintenance packages that include regular updates, security patches, performance optimization, and technical support. We also provide training to your team to help manage day-to-day website operations.",
+      "Oui, nous offrons des forfaits de maintenance complets incluant mises à jour régulières, correctifs de sécurité, optimisation des performances et support technique. Nous formons également votre équipe pour gérer les opérations quotidiennes du site.",
   },
   {
     id: 5,
-    question: "How do you handle project pricing?",
+    question: "Comment déterminez-vous les prix de vos projets ?",
     answer:
-      "Our pricing is project-based and depends on factors like scope, complexity, and timeline. We provide detailed proposals with clear cost breakdowns and milestone-based payment schedules. We ensure transparency in pricing with no hidden costs.",
+      "Nos tarifs sont basés sur le projet, en fonction du périmètre, de la complexité et du délai. Nous fournissons des devis détaillés avec une répartition claire des coûts et un calendrier de paiement par étapes. Aucune surprise — la transparence est essentielle pour nous.",
   },
   {
     id: 6,
-    question: "What makes your agency different from others?",
+    question: "Qu'est-ce qui différencie votre agence des autres ?",
     answer:
-      "We combine technical expertise with creative innovation, focusing on delivering measurable results. Our team stays updated with latest technologies, provides personalized attention, and ensures quality deliverables. We believe in building long-term partnerships rather than just completing projects.",
+      "Nous combinons expertise technique et innovation créative pour obtenir des résultats concrets. Notre équipe reste à jour avec les dernières technologies, offre une attention personnalisée et garantit des livrables de qualité. Nous visons des partenariats durables, pas seulement des projets ponctuels.",
   },
   {
     id: 7,
-    question: "How do you ensure project quality and timely delivery?",
+    question: "Comment garantissez-vous la qualité et la livraison dans les délais ?",
     answer:
-      "We implement robust quality assurance processes, use project management tools, and follow agile methodologies. Our team conducts regular internal reviews, maintains coding standards, and performs thorough testing to ensure high-quality deliverables within agreed timelines.",
+      "Nous appliquons des processus rigoureux d'assurance qualité, utilisons des outils de gestion de projet et adoptons des méthodologies agiles. Des revues internes régulières, le respect des standards de codage et des tests approfondis assurent la qualité et le respect des délais.",
   },
   {
     id: 8,
-    question: "Can you help with improving our existing website?",
+    question: "Pouvez-vous améliorer notre site web existant ?",
     answer:
-      "Absolutely! We offer website audit services to analyze your current website's performance, user experience, and technical aspects. Based on the audit, we provide recommendations and can implement improvements in design, functionality, speed, and SEO.",
+      "Absolument ! Nous proposons un audit complet de votre site pour analyser ses performances, son expérience utilisateur et ses aspects techniques. À partir de là, nous formulons des recommandations et réalisons des améliorations en design, fonctionnalités, vitesse et SEO.",
   },
 ];
+
 
 const Page = () => {
   return (
@@ -73,8 +75,8 @@ const Page = () => {
                 <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM875 3L875.271 3.42013L876.697 2.5H875V3ZM842.084 64L845.265 59.1819L839.502 58.836L842.084 64ZM3 3.5H875V2.5H3V3.5ZM874.729 2.57987C861.302 11.2438 844.485 27.4669 841.856 59.4675L842.852 59.5494C845.45 27.938 862.03 11.9643 875.271 3.42013L874.729 2.57987Z" />
               </svg>
               <p>
-                Find answers to commonly asked questions about our digital
-                agency services and processes.
+                Trouvez des réponses aux questions fréquemment posées sur nos
+                services et nos processus en tant qu'agence digitale.
               </p>
             </div>
           </div>
@@ -93,225 +95,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="text-slider-section">
-        <div className="marquee">
-          <div className="marquee__group">
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>{" "}
-              GRAPHIC DESIGN
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              WEB DESIGN & DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              SEO Optimization
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              MOBILE APP DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              UX/UI DESIGN
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              DIGITAL MARKETING
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              LOGO DESIGN
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              WEB DESIGN & DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              SEO Optimization
-            </span>
-          </div>
-          <div className="marquee__group">
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>{" "}
-              GRAPHIC DESIGN
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              WEB DESIGN
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              LANDING PAGE DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              UX/UI DESIGN
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              DIGITAL MARKETING
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              BRANDING DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              WEB DESIGN & DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              SEO Optimization
-            </span>
-            <span>
-              <svg
-                className="circle"
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-              >
-                <circle cx="8.5" cy="8.5" r={8} />
-              </svg>
-              UX/UI DESIGN
-            </span>
-          </div>
-        </div>
-      </div>
+       </div>
       <Footer />
     </>
   );

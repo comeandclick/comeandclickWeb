@@ -27,139 +27,36 @@ const Header = ( {style=""}) => {
           </div>
           <ul className="menu-list">
             <li className="menu-item-has-children ">
-              <a href="/" className="drop-down">Home</a><i className="bi bi-plus dropdown-icon" />
+              <a href="/" className="drop-down">Accueil</a><i className="bi bi-plus dropdown-icon" />
               <svg xmlns="http://www.w3.org/2000/svg" width={18} height={10} viewBox="0 0 18 10">
                 <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
               </svg>
-              {/* <ul className="sub-menu">
-                <li className=""><Link href="/">Light Version</Link>
-                  <i className="bi bi-chevron-right dropdown-icon" />
-                  <ul className="sub-menu">
-                    <li className=""><Link href="/">Digital Agency</Link></li>
-                    <li><Link href="/software-agency">Software Agency</Link></li>
-                    <li><Link href="/marketing-agency ">Marketing Agency</Link></li>
-                    <li><Link href="/design-studio">Design Studio</Link></li>
-                    <li><Link href="/personal-portfolio">Personal Portfolio</Link></li>
-                    <li><Link href="/saas-product">SaaS Product</Link></li>
-                  </ul>
-                </li>
-                <li><Link href="/index2">Dark Version</Link>
-                  <i className="bi bi-chevron-right dropdown-icon" />
-                  <ul className="sub-menu">
-                    <li><Link href="/digital-agency-dark">Digital Agency</Link></li>
-                    <li><Link href="/software-agency-dark">Software Agency</Link></li>
-                    <li><Link href="/marketing-agency-dark">Marketing Agency</Link></li>
-                    <li><Link href="/design-studio-dark">Design Studio</Link></li>
-                    <li><Link href="/personal-portfolio-dark">Personal Portfolio</Link></li>
-                    <li><Link href="/saas-product-dark">SaaS Product</Link></li>
-                  </ul>
-                </li>
-              </ul> */}
             </li>
             <li className="menu-item-has-children">
-              <a href="#" className="drop-down">About Us</a><i className="bi bi-plus dropdown-icon" />
+              <a href="#" className="drop-down">À propos de nous</a><i className="bi bi-plus dropdown-icon" />
               <svg xmlns="http://www.w3.org/2000/svg" width={18} height={10} viewBox="0 0 18 10">
                 <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
               </svg>
               <ul className="sub-menu">
-                <li><Link href="/about-me">About Agency</Link></li>
-                <li><Link href="/pricing">Pricing</Link></li>
+                <li><Link href="/about-me">À propos de l'agence</Link></li>
+                <li><Link href="/pricing">Tarifs</Link></li>
                 <li><Link href="/faq">FAQ</Link></li>
               </ul>
             </li>
             <li className="menu-item-has-children">
-              <Link href="/service3" className="drop-down">Services</Link><i className="bi bi-plus dropdown-icon" />
+              <Link href="/service3" className="drop-down">Nos Services</Link><i className="bi bi-plus dropdown-icon" />
               <svg xmlns="http://www.w3.org/2000/svg" width={18} height={10} viewBox="0 0 18 10">
                 <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
               </svg>
 
             </li>
-            {/* <li className="menu-item-has-children">
-              <Link href="#" className="drop-down">Pages</Link><i className="bi bi-plus dropdown-icon" />
-              <svg xmlns="http://www.w3.org/2000/svg" width={18} height={10} viewBox="0 0 18 10">
-                <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
-              </svg>
-              <ul className="sub-menu">
-                <li><Link href="/about">about us</Link></li>
-                <li><Link href="/about-me">about me</Link></li>
-                <li>
-                  <Link href="/case-study1">Case Study</Link>
-                  <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                  <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
-                  <ul className="sub-menu">
-                    <li><Link href="/case-study1">Case Study Style 01</Link></li>
-                    <li><Link href="/case-study2">Case Study Style 02</Link></li>
-                    <li><Link href="/case-study-details">Case Study Details</Link></li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/our-team1">Our Team</Link>
-                  <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                  <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
-                  <ul className="sub-menu">
-                    <li><Link href="/our-team1">Team Style 01 </Link></li>
-                    <li><Link href="/our-team2">Team Style 02</Link></li>
-                    <li><Link href="/our-team3">Team Style 03</Link></li>
-                    <li><Link href="/our-team4">Team Style 04</Link></li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/blog-standard">Blog</Link>
-                  <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                  <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
-                  <ul className="sub-menu">
-                    <li><Link href="/blog-grid">Blog Grid</Link></li>
-                    <li><Link href="/blog-grid2">Blog Sidebar</Link></li>
-                    <li><Link href="/blog-standard">Blog Standard</Link></li>
-                    <li><Link href="/blog-details">Blog Details </Link></li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/career-list">Career</Link>
-                  <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                  <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
-                  <ul className="sub-menu">
-                    <li><Link href="/career-list">Career List</Link></li>
-                    <li><Link href="/career-details">Career Details</Link></li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/shop">Shop</Link>
-                  <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                  <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
-                  <ul className="sub-menu">
-                    <li><Link href="/shop">Shop</Link></li>
-                    <li><Link href="/product-details">Product Details</Link></li>
-                    <li><Link href="/cart">Cart</Link></li>
-                    <li><Link href="/checkout">Checkout</Link></li>
-                  </ul>
-                </li>
-                <li><Link href="/office-gallery">Office Gallery</Link></li>
-                <li><Link href="/pricing">Pricing</Link></li>
-                <li><Link href="/faq">FAQs</Link></li>
-                <li><Link href="/error">Error 404</Link></li>
-                <li><Link href="/terms-conditions">Terms &amp; Conditions</Link></li>
-              </ul>
-            </li> */}
             <li className="menu-item-has-children">
               <Link href="/portfolio-showcase" className="drop-down">Portfolio</Link><i className="bi bi-plus dropdown-icon" />
               <svg xmlns="http://www.w3.org/2000/svg" width={18} height={10} viewBox="0 0 18 10">
                 <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
               </svg>
-              {/* <ul className="sub-menu">
-                <li><Link href="/portfolio-manonery">Portfolio Masonery</Link></li>
-                <li><Link href="/portfolio-vertical-grid">Portfolio Vertical Grid</Link></li>
-                <li><Link href="/portfolio-showcase">Portfolio Showcase</Link></li>
-                <li><Link href="/portfolio-showcase-slider">Portfolio Showcase Slider</Link></li>
-                <li><Link href="/portfolio-showcase-carosuel">Portfolio Showcase Carosuel</Link></li>
-                <li><Link href="/portfolio-showcase-horizental">Portfolio Horizental Showcase</Link>
-                </li>
-                <li><Link href="/portfolio-interactive-banner">Interactive Banner</Link></li>
-                <li><Link href="/portfolio-interactive-link">Interactive links</Link></li>
-                <li><Link href="/portfolio-details">Portfolio Details</Link></li>
-              </ul> */}
             </li>
-            <li><Link href="/contact">Contact Us</Link>
+            <li><Link href="/contact">Contactez-nous</Link>
             <svg xmlns="http://www.w3.org/2000/svg" width={18} height={10} viewBox="0 0 18 10">
                 <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
               </svg>
