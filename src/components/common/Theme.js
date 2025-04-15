@@ -1,15 +1,22 @@
 import { useState, useEffect } from "react";
 
 const ThemeSwitch = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true); // Initialize as true for dark mode by default
 
   useEffect(() => {
     // Check localStorage for saved theme preference
     const savedTheme = localStorage.getItem("theme");
-    if (savedTheme === "dark") {
-      setIsDarkMode(true);
-      // Add 'dark' class to body on initial load if dark mode is enabled
+    
+    // If no saved theme, set dark mode as default
+    if (!savedTheme) {
+      localStorage.setItem("theme", "dark");
       document.body.classList.add("dark");
+    } else if (savedTheme === "dark") {
+      setIsDarkMode(true);
+      document.body.classList.add("dark");
+    } else {
+      setIsDarkMode(false);
+      document.body.classList.remove("dark");
     }
   }, []);
 
@@ -17,7 +24,6 @@ const ThemeSwitch = () => {
     const newTheme = isDarkMode ? "light" : "dark";
     setIsDarkMode(!isDarkMode);
     localStorage.setItem("theme", newTheme);
-    // Toggle 'dark' class based on updated value of isDarkMode
     document.body.classList.toggle("dark", !isDarkMode);
   };
 

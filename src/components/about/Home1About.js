@@ -28,7 +28,7 @@ const Home1About = () => {
           </div>
           <div className="col-lg-8">
             <div className="section-title two text-animation">
-              <h2 >
+              <h2 style={{fontSize: "17px"}}>
                 Come & Click est votre agence digitale tout-en-un, créant des
                 solutions en ligne puissantes grâce à une expertise en
                 marketing, développement et design pour renforcer la présence
