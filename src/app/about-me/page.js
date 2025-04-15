@@ -27,13 +27,19 @@ const AboutMe = () => {
           autoPlay
           muted
           loop
+          playsInline
+          controls={false}
+          disablePictureInPicture
+          disableRemotePlayback
           style={{
             position: "absolute",
             width: "100%",
             height: "100%",
-            objectFit: "cover",
+            objectFit: "cover", 
             objectPosition: "center",
             zIndex: -1,
+            pointerEvents: "none", // Prevents interaction
+            userSelect: "none" // Prevents selection
           }}
         >
           <source src="/assets/video/banner3.mp4" type="video/mp4" />
