@@ -5,7 +5,7 @@ import React from "react";
 export const metadata = {
   title: "Come & Click - Tarifs",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/logo.png",
   },
 };
 

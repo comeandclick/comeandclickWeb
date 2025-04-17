@@ -7,8 +7,7 @@ import React from "react";
 export const metadata = {
   title: "Come & Click - Agence Digitale",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
-  },
+    icon: "/assets/img/logo.png",  },
 };
 
 const AboutMe = () => {

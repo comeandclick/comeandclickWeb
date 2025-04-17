@@ -3,9 +3,9 @@ import Header from "@/components/header/Header";
 import React from "react";
 
 export const metadata = {
-  title: "Come & Click - Digital Agency",
+  title: "Come & Click - Agence Digitale",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/logo.png",
   },
 };
 
