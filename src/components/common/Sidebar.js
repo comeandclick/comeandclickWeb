@@ -62,7 +62,7 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
               <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" fill="#00b4d8">
               </path>
             </svg>
-            Get in Touch
+            Contactez-nous
             <span style={{top: '50.5px', left: '83.75px'}} />
           </a>
         </div>
@@ -72,7 +72,7 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
           <div className="col-lg-4 order-lg-1 order-2">
             <div className="sidebar-contact">
               <div className="getin-touch-area mb-60">
-                <h4>Get in Touch
+                <h4>Contactez-nous
                   <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12">
                     <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
                   </svg>
@@ -85,7 +85,7 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
                       </svg>
                     </div>
                     <div className="contact">
-                      <span>Phone</span>
+                      <span>Téléphone</span>
                       <h6><a href="tel:+33602158298">+33 60 2158 298</a></h6>
                     </div>
                   </li>
@@ -96,7 +96,7 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
                       </svg>
                     </div>
                     <div className="contact">
-                      <span>Email Now</span>
+                      <span>Email</span>
                       <h6><a href="mailto:contact@comeandclickagency.com">contact@comeandclickagency.com</a>
                       </h6>
                     </div>
@@ -132,21 +132,21 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
             <div className="sidebar-menu-wrap">
               <ul className="main-menu">
                 <li className={state.activeMenu==="home"?"active":""}>
-                  <a href="/">Home</a>
+                  <a href="/">Accueil</a>
                 </li>
                 <li className={state.activeMenu==="about"?"active":""}>
-                  <a href="/about">About us</a>
+                  <a href="/about">À propos</a>
                   <span className={`dropdown-icon2 ${state.activeMenu==="about"?"active":""} `}><i className={`bi ${state.activeMenu === "about" ? "bi-dash" : "bi-plus"}`}  onClick={()=>collapseMenu("about")} /></span>
                   <ul className={`submenu-list ${state.activeMenu==="about"?"active":""}`}>
                     <li>
-                      <Link href="/about-me">About Agency
+                      <Link href="/about-me">À propos de l'agence
                         <svg xmlns="http://www.w3.org/2000/svg" width={10} height={10} viewBox="0 0 10 10">
                           <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                         </svg>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/pricing">Pricing
+                      <Link href="/pricing">Tarifs
                         <svg xmlns="http://www.w3.org/2000/svg" width={10} height={10} viewBox="0 0 10 10">
                           <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                         </svg>
@@ -162,12 +162,12 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
                   </ul>
                 </li>
                 <li className={state.activeMenu==="services"?"active":""}>
-                  <a href="/service3">Services</a>
+                  <a href="/service3">Nos Services</a>
                 </li>
                 <li className={state.activeMenu==="portfolio"?"active":""}>
                   <a href="/portfolio-showcase">Portfolio </a>
                 </li>
-                <li><Link href="/contact">Contact Us</Link></li>
+                <li><Link href="/contact">Contactez-nous</Link></li>
               </ul>
             </div>
           </div>

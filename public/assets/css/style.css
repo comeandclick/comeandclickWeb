@@ -122,14 +122,14 @@ Version: 1.0
   --deep-white-color: #DFDFDF;
   --paragraph-color: #000814;
   --paragraph-color-opc: 84, 84, 84;
-  --paragraph-color2: #000814;
-  --paragraph-color3: #0e0000;
+  --paragraph-color2: #14213d;
+  --paragraph-color3: #14213d;
   --paragraph-color-dark: #C4C4C4;
   --border-color: #dfdfdf;
   --border-color2: #eee;
-  --body-bg1: #F0F0F0;
-  --bg-color1: #F8F8F8;
-  --section-bg1: #EAEAEA;
+  --body-bg1: #ffffff;
+  --bg-color1: #ffffff;
+  --section-bg1: #ffffff;
 }
 
 body.dark {
@@ -144,8 +144,8 @@ body.dark {
   --border-color2: #2f2f2f;
   --body-bg1: #000814;
   ---dark-white-color: #161616;
-  --section-bg1: #000814;
-  --bg-color1: #F8F8F8;
+  --section-bg1: #14213d;
+  --bg-color1: #ffffff;
   background-color: #000814 !important;
 }
 
@@ -5913,7 +5913,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   }
 }
 .work-section .mb-80 {
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 @media (max-width: 991px) {
   .work-section .mb-80 {
@@ -6144,16 +6144,17 @@ body:not(.is-mobile) .tt-style-switch:hover {
 ========================================*/
 .home1-process-section {
   background-color: #F0F0F0;
+  margin-top: -70px;
 }
 .home1-process-section .single-process .step-and-dash {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 @media (max-width: 991px) {
   .home1-process-section .single-process .step-and-dash {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 }
 .home1-process-section .single-process .step-and-dash h6 {
@@ -9366,7 +9367,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   padding-bottom: 45px;
   margin-bottom: 50px;
   border-bottom: 1px solid var(--border-color2);
-  background-color: #000814;
+  background-color: var( --body-bg1);
   padding-left: 25px;
 }
 @media (max-width: 991px) {
@@ -19835,7 +19836,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   fill: var(--white-color);
 }
 .contact-page .contact-form-wrap {
-  background-color: #C5D1C3;
+  background-color: #e3f2fd;
   border-radius: 10px;
   padding: 60px 50px;
 }
@@ -20040,7 +20041,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .pricing-page .pricing-card {
   position: relative;
   padding: 50px 35px;
-  background-color: #F8E37F;
+  background-color: #e3f2fd;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .pricing-page .pricing-card {
@@ -23942,7 +23943,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   background-color: #222;
 }
 .dark .pricing-page .pricing-card {
-  background-color: #222;
+  background-color: #061a40;
 }
 .dark .portfolio-page-area .section-title h1 {
   font-size: 130px;

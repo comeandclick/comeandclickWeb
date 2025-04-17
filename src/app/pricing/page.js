@@ -10,16 +10,11 @@ export const metadata = {
 };
 
 const page = () => {
-  // Using darker color codes for cards
-  const cardColors = {
-    blue: "#001D34FF", // Darker blue
-    pink: "#070124FF", // Darker pink  
-    green: "#03000EFF" // Darker green
-  };
+
 
   return (
     <>
-      <Header hideThemeSwitch={true} />
+      <Header  />
       <div className="pricing-page pt-130 mb-130">
         <div className="container-lg container-fluid">
           <div className="section-title-and-tab-btn mb-70">
@@ -111,12 +106,12 @@ const page = () => {
             <div className="tab-pane fade show active" id="website" role="tabpanel">
               <div className="row g-4 justify-content-center">
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.blue}}>
+                  <div className="pricing-card">
                     <div className="pricing-top">
                       <span>Standard</span>
                       <h2>€600 - €1,300<sub>/unique</sub></h2>
                     </div>
-                    <div className="pricing-content" style={{color: '#000000'}}>
+                    <div className="pricing-content">
                       <ul>
                         <li>Site Web 3-5 Pages</li>
                         <li>Design Responsive</li>
@@ -130,7 +125,7 @@ const page = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Premium</span>
                       <h2>€1,400 - €2,800<sub>/unique</sub></h2>
@@ -149,7 +144,7 @@ const page = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.green}}>
+                    <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Plan Personnalisé</span>
                       <h2>Sur Demande<sub>/devis</sub></h2>
@@ -173,7 +168,7 @@ const page = () => {
             <div className="tab-pane fade" id="ecommerce" role="tabpanel">
               <div className="row g-4 justify-content-center">
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.blue}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Standard</span>
                       <h2>€1,200 - €2,200<sub>/unique</sub></h2>
@@ -192,7 +187,7 @@ const page = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Premium</span>
                       <h2>€2,700 - €4,700<sub>/unique</sub></h2>
@@ -211,7 +206,7 @@ const page = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.green}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Plan Personnalisé</span>
                       <h2>Sur Demande<sub>/devis</sub></h2>
@@ -235,7 +230,7 @@ const page = () => {
             <div className="tab-pane fade" id="booking" role="tabpanel">
               <div className="row g-4 justify-content-center">
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.blue}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Standard</span>
                       <h2>€1,400 - €2,600<sub>/unique</sub></h2>
@@ -254,7 +249,7 @@ const page = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Premium</span>
                       <h2>€3,100 - €5,600<sub>/unique</sub></h2>
@@ -273,7 +268,7 @@ const page = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.green}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Plan Personnalisé</span>
                       <h2>Sur Demande<sub>/devis</sub></h2>
@@ -297,7 +292,7 @@ const page = () => {
             <div className="tab-pane fade" id="mobile" role="tabpanel">
               <div className="row g-4 justify-content-center">
                 <div className="col-lg-4 col-md-6 mx-auto">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Développement Personnalisé</span>
                       <h2>Devis Requis<sub>/projet</sub></h2>
@@ -321,7 +316,7 @@ const page = () => {
             <div className="tab-pane fade" id="logo" role="tabpanel">
               <div className="row g-4 justify-content-center">
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.blue}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Standard</span>
                       <h2>€80 - €230<sub>/projet</sub></h2>
@@ -340,7 +335,7 @@ const page = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Premium</span>
                       <h2>€280 - €530<sub>/projet</sub></h2>
@@ -359,7 +354,7 @@ const page = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.green}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Plan Personnalisé</span>
                       <h2>Sur Demande<sub>/devis</sub></h2>
@@ -383,7 +378,7 @@ const page = () => {
             <div className="tab-pane fade" id="seo" role="tabpanel">
               <div className="row g-4 justify-content-center">
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.blue}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Pack Basique</span>
                       <h2>€300 - €1,000<sub>/projet</sub></h2>
@@ -402,7 +397,7 @@ const page = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.pink}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Pack Avancé</span>
                       <h2>€1,100 - €2,300<sub>/projet</sub></h2>
@@ -421,7 +416,7 @@ const page = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                  <div className="pricing-card" style={{backgroundColor: cardColors.green}}>
+                  <div className="pricing-card" >
                     <div className="pricing-top">
                       <span>Plan Personnalisé</span>
                       <h2>Sur Demande<sub>/devis</sub></h2>

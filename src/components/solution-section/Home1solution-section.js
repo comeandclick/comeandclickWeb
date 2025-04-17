@@ -98,9 +98,14 @@ const Home1solutionSection = ({ style = "home1-solution-section" }) => {
             <ul className="solution-img-wrapper text-animation">
               <li className="active">
                 <div
-                  className="solution-img "
+                  className="solution-img"
                   style={{
-                    backgroundImage: "url(assets/img/home1/solution-01.png)",
+                    backgroundImage: "url(assets/img/home1/logowork.png)",
+                    width: "100%", 
+                    height: "100%",
+                    backgroundSize: "contain",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat"
                   }}
                 ></div>
               </li>
