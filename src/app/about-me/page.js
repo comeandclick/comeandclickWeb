@@ -63,7 +63,7 @@ const AboutMe = () => {
               <div className="row">
                 <div className="col-lg-5">
                   <div className="section-title white">
-                    <h1 style={{ fontSize: "32px" }}>À propos de l'agence</h1>
+                    <h1 style={{ fontSize: "28px", "@media (max-width: 576px)": { fontSize: "16px" } }}>À propos de l'agence</h1>
                   </div>
                 </div>
                 <div className="col-lg-7 d-flex align-items-end">

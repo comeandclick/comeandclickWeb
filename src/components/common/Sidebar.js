@@ -135,7 +135,7 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
                   <a href="/">Accueil</a>
                 </li>
                 <li className={state.activeMenu==="about"?"active":""}>
-                  <a href="/about">À propos</a>
+                  <a href="#">À propos</a>
                   <span className={`dropdown-icon2 ${state.activeMenu==="about"?"active":""} `}><i className={`bi ${state.activeMenu === "about" ? "bi-dash" : "bi-plus"}`}  onClick={()=>collapseMenu("about")} /></span>
                   <ul className={`submenu-list ${state.activeMenu==="about"?"active":""}`}>
                     <li>
