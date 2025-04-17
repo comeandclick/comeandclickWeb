@@ -9,9 +9,9 @@ import Home5TestimonialSection from "@/components/testimonial-section/home5-test
 import HomeworkSection from "@/components/work-section/Homework-section";
 
 export const metadata = {
-  title: "Come & Click - Digital Agency",
+  title: "Come & Click - Agence Digitale",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/logo.png",
   },
 };
 export default function Home() {
