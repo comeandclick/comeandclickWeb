@@ -76,7 +76,7 @@ const PortfolioShowCasePage = () => {
               <div className="row align-items-center gy-5">
                 <div className="col-lg-7">
                   <div className="section-title">
-                    <h1 style={{color:'#1e88e5', fontSize: "28px", "@media (max-width: 576px)": { fontSize: "16px" } }} >
+                    <h1 style={{color:'#1e88e5', fontSize: "24px", "@media (max-width: 576px)": { fontSize: "16px" } }} >
                       Nos Derniers <span>Travaux Flexibles.</span>
                     </h1>
                   </div>
