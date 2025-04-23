@@ -30,7 +30,7 @@ const Home1ProcessSection = () => {
 
               <div className="dash-and-paragraph">
                 <div className="dash" />
-                <p>
+                <p style={{ textAlign: "justify" }}>
                   Nous suivons un processus de design éprouvé pour créer des
                   sites web et des expériences numériques élégantes qui aident
                   les entreprises à se démarquer et à réussir en ligne.
